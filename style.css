@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: 'Ranchers-Regular';
+    src: url("fonts/Ranchers/Ranchers-Regular.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DancingScript-Variable';
+    src: url("fonts/Indie_Flower/IndieFlower-Regular.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+button {
+    background: green;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color: white;
+    font-family: Roboto,sans-serif;
+}
+input{
+    border-radius: 10px;
+    padding: 5px
+}
+button:hover {
+    cursor: pointer;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.3)), url('img/andyone--WW8jBak7bo-unsplash.jpg'),no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: Ranchers-Regular, sans-serif;
+    letter-spacing: 10px;
+    font-size: 60px;
+    color: #808080;
+    text-shadow: 2px -2px 3px #ffffff;
+}
+.wordExplanation {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.word {
+    border: 1px solid gray;
+    width: 45%;
+    background: white;
+    font-family: DancingScript-Variable, sans-serif;
+    border-radius: 15px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.word a{
+    text-decoration: none;
+    text-indent: 20px;
+}
+
+.word li:hover {
+    cursor: pointer;
+}
+.explanation {
+    width: 45%;
+    box-sizing: border-box;
+    overflow: auto;
+    object-fit: cover;
+    font-family: DancingScript-Variable, sans-serif;
+}
+.explanation p {
+    padding-left: 15px;
+    font-size: 25px;
+}
+.explanation img {
+    max-width: 90%;
+    height: 95%;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.explanation:hover {
+    cursor: pointer;
+}
+.texDescription {
+    display: none;
+    margin: 0;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 86%;
+}
+
+.random {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.random {
+    display: flex;
+    justify-content: space-between;
+
+}
+.randomCardTitle {
+    color: white;
+    font-family: DancingScript-Variable,sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.enterName {
+    width: 30%;
+}
+.listName {
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(158, 158, 158, 0.5);
+}
+.listName li {
+    list-style: none;
+}
+.listName li span{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background: white;
+    border-radius: 5px;
+}
+.randomName {
+    width: 30%;
+    color: white;
+}
+.randomCard {
+    width: 40%;
+    height: 230px;
+}
+.randomCard img{
+    height: 100%;
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+
+.bg-white {
+    background: white;
+}
