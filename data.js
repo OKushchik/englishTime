@@ -10,23 +10,31 @@ window.catalog = [
     },
     {
         id: '2',
-        title: 'Cancel',
-        description: '- to decide that an organized event will not happen, or to stop an order for goods or services that you no longer want',
-        image: 'cancelledflight-scaled.jpg',
-        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/cancel'
+        title: 'Decorum',
+        description: '<u>Decorum is used to describe good manners.</u><br>' +
+            '<b>Examples:</b><br>'+
+            '- Although Elizabeth was upset she did not win the contest, she maintained decorum and congratulated the winner.',
+        image: 'decorum.gif',
+        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/decorum'
     },
     {
         id: '3',
-        title: 'Come up with',
-        description: '- find solution',
-        image: '1_M7kXQkHrjFiZQngMdaaK8Q.png',
-        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/come-up-with'
+        title: 'Hapless',
+        description: '<u>An unlucky person.</u><br>' +
+            '<b>Examples:</b><br>'+
+            '- When Jason lost his wife and job on the same day, he knew he was a hapless soul.',
+        image: 'hapless.jpg',
+        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/hapless'
     },
     {
         id: '4',
-        title: 'Grow up',
-        description: '- I grew up in Scotland  (I lived there when I was young).',
-        image: '5.png',
-        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/grow-up'
+        title: 'Veracity',
+        description: '<u>The quality of being truthful.</u><br>' +
+            '<b>Examples:</b><br>'+
+            '- The police doubted the veracity of the suspect’s alibi.<br>'+
+            '- Unless you get your information from a credible website, you should doubt the veracity of the facts until you have confirmed them elsewhere. '
+        ,
+        image: 'veracity.jpg',
+        pronounce: 'https://dictionary.cambridge.org/pronunciation/english/veracity'
     }
 ];
