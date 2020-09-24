@@ -150,3 +150,35 @@ h1{
 .bg-white {
     background: white;
 }
+@media screen and (max-width: 920px){
+    h1 {
+        margin: 5px;
+        font-size: 10vw;
+    }
+    .wordExplanation {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .word, .explanation {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .word {
+        height: 200px;
+    }
+    .explanation {
+        text-align: center;
+    }
+    .explanation img {
+        height: auto;
+    }
+    .random {
+        flex-direction: column;
+        text-align: center;
+    }
+    .enterName, .randomName, .randomCard {
+        margin: 0 auto;
+        width: 70%;
+    }
+}
